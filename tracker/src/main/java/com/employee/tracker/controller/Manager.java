@@ -16,7 +16,8 @@ import com.employee.tracker.employee.EmployeeServiceImpl;
 
 @Controller
 public class Manager {
-	  @Autowired
+	  
+	    @Autowired
 	    private EmployeeServiceImpl employeeServiceImpl;
 	 
 	    @GetMapping("/")
